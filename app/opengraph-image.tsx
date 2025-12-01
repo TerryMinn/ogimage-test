@@ -54,26 +54,6 @@ export default async function Image() {
           Hinthar Property - Real Estate Platform
         </div>
 
-        <div
-          style={{
-            display: "flex",
-            marginTop: 18,
-            width: 800,
-            fontSize: 14,
-            lineHeight: 1.32,
-            textAlign: "center",
-            color: "#4d4d4d",
-            justifyContent: "center",
-          }}
-        >
-          <p style={{ width: "80%" }}>
-            Looking for the best real estate in Myanmar? HinThar Property Real
-            Estate offers top-notch service for houses, condos, land, and
-            commercial properties. Let us help you turn your dream home into a
-            reality.
-          </p>
-        </div>
-
         {/* Main Image */}
         <div
           style={{
@@ -97,6 +77,26 @@ export default async function Image() {
               objectFit: "cover",
             }}
           />
+        </div>
+
+        <div
+          style={{
+            display: "flex",
+            marginTop: 18,
+            width: 800,
+            fontSize: 14,
+            lineHeight: 1.32,
+            textAlign: "center",
+            color: "#4d4d4d",
+            justifyContent: "center",
+          }}
+        >
+          <p style={{ width: "80%" }}>
+            Looking for the best real estate in Myanmar? HinThar Property Real
+            Estate offers top-notch service for houses, condos, land, and
+            commercial properties. Let us help you turn your dream home into a
+            reality.
+          </p>
         </div>
       </div>
     ),
