@@ -18,32 +18,31 @@ export default async function Image() {
           flexDirection: "column",
           alignItems: "center",
           background:
-            "linear-gradient(180deg, #fff9e6 0%, #f5d98d 60%, #e7b44a 100%)", // GOLD GRADIENT ✨
+            "linear-gradient(180deg, #fff9e6 0%, #f5d98d 80%, #e7b44a 100%)",
           fontFamily: "serif",
         }}
       >
-        {/* Domain Badge */}
         <div
           style={{
             display: "flex",
-            marginTop: 35,
+            marginTop: 20,
             padding: "12px 32px",
             borderRadius: 30,
             background: "rgba(255,255,255,0.7)",
-            fontSize: 30,
+            fontSize: 12,
+            justifyContent: "center",
             color: "#6b6b6b",
-            border: "1px solid rgba(255,255,255,0.4)",
+            alignItems: "center",
           }}
         >
-          staging.hintharproperty.com
+          hintharproperty.com
         </div>
 
-        {/* Title */}
         <div
           style={{
             display: "flex",
-            marginTop: 45,
-            fontSize: 56, // PERFECT TITLE SIZE
+            marginTop: 10,
+            fontSize: 20, // PERFECT TITLE SIZE
             fontWeight: 800,
             maxWidth: 900,
             textAlign: "center",
@@ -55,23 +54,24 @@ export default async function Image() {
           Hinthar Property - Real Estate Platform
         </div>
 
-        {/* Subtitle */}
         <div
           style={{
             display: "flex",
             marginTop: 18,
             width: 800,
-            fontSize: 24,
+            fontSize: 14,
             lineHeight: 1.32,
             textAlign: "center",
             color: "#4d4d4d",
             justifyContent: "center",
           }}
         >
-          Looking for the best real estate in Myanmar? HinThar Property Real
-          Estate offers top-notch service for houses, condos, land, and
-          commercial properties. Let us help you turn your dream home into a
-          reality.
+          <p style={{ width: "80%" }}>
+            Looking for the best real estate in Myanmar? HinThar Property Real
+            Estate offers top-notch service for houses, condos, land, and
+            commercial properties. Let us help you turn your dream home into a
+            reality.
+          </p>
         </div>
 
         {/* Main Image */}
@@ -98,24 +98,8 @@ export default async function Image() {
             }}
           />
         </div>
-
-        {/* Footer */}
-        <div
-          style={{
-            display: "flex",
-            marginTop: 30,
-            width: "100%",
-            padding: "18px 55px",
-            background: "rgba(255,255,255,0.65)",
-            fontSize: 40,
-            fontWeight: 700,
-            color: "#000",
-          }}
-        >
-          Hinthar Property - Real Estate Platform
-        </div>
       </div>
     ),
-    size,
+    size
   );
 }
