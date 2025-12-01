@@ -80,7 +80,7 @@ export default async function Image() {
             display: "flex",
             marginTop: 45,
             width: 950,
-            height: 380,
+            height: 400,
             borderRadius: 28,
             overflow: "hidden",
             border: "8px solid rgba(255,255,255,0.85)",
