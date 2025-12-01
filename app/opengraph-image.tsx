@@ -6,6 +6,8 @@ export default async function Image() {
   const logoData = await readFile(join(process.cwd(), "logo.png"));
   const logoSrc = Uint8Array.from(logoData).buffer;
 
+  console.log(logoSrc);
+
   return new ImageResponse(
     (
       <div
