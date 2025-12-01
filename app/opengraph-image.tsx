@@ -78,9 +78,9 @@ export default async function Image() {
         <div
           style={{
             display: "flex",
-            marginTop: 45,
-            width: 200,
-            height: 200,
+            marginTop: 60,
+            width: 100,
+            height: 100,
             borderRadius: 100,
             overflow: "hidden",
             border: "2px solid #f5d98d",
@@ -88,8 +88,8 @@ export default async function Image() {
         >
           <img
             src="https://hinthar.sfo3.digitaloceanspaces.com/meta/icon.png"
-            width={200}
-            height={200}
+            width={100}
+            height={100}
             alt={alt}
             style={{
               width: "100%",
