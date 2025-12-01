@@ -84,7 +84,7 @@ export default async function Image() {
             display: "flex",
             marginTop: 18,
             width: 800,
-            fontSize: 14,
+            fontSize: 18,
             lineHeight: 1.32,
             textAlign: "center",
             color: "#4d4d4d",
